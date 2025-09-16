@@ -1,0 +1,62 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Test/coverage caches
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE/project files
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+
+# Node (just in case)
+node_modules/
+
+# Project-specific
+.cursor/
+*.csv
+*.xlsx
+output/
+data/
+fec_data_tools.egg-info/
+
