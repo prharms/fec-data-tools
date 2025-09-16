@@ -21,16 +21,21 @@ Key dependency: `openpyxl` (installed via pyproject) for XLSX writing.
 
 Usage
 -----
+Get help:
+
+```bash
+fec-tools --help
+```
 Combine CSVs:
 
 ```bash
-python -m fec_formatter.cli combine --input-dir data --output output/combined.csv
+fec-tools combine --input-dir data --output output/combined.csv
 ```
 
 Format to XLSX:
 
 ```bash
-python -m fec_formatter.cli format-xlsx --input-file "data/01 - C00831107 (Sen) - 2025-2026.csv" --output output/fec_formatted.xlsx
+fec-tools format-xlsx --input-file "data/01 - C00831107 (Sen) - 2025-2026.csv" --output output/fec_formatted.xlsx
 ```
 
 Filtering options:
